@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Biblioteca en Ajax</title>
+<script>
+var peticion;
+var opt;
+var colocar;
+	
+function obtieneDatos( opc )
+{
+	try {
+		peticion = new XMLHttpRequest();
+		peticion.addEventListener("readystatechange",mostrar,false);
+		peticion.open("GET","info.php?opc="+opc,true);
+		peticion.send(null);
+	}
+	catch (e)
+	{
+		alert("No se pudo conectar");
+	}
+}
+
+function mostrar()
+{
+	if(peticion.readyState == 4 && peticion.status == 200 )
+	{
+		  //alert(peticion.responseText);
+		  colocar.innerHTML=peticion.responseText;
+	}
+}
+
+function iniciar ()
+{
+	opt = document.getElementById("opcion");
+	opt.addEventListener("change",seleccionar,false);
+	
+}
+
+function seleccionar()
+{
+
+	var valor = opt.value;
+	colocar = document.getElementById("resumen");
+	
+	if(valor== "")
+	{
+		colocar.innerHTML="";	
+	}
+	else 
+	{		
+		obtieneDatos(valor);
+	}	
+}
+
+window.addEventListener("load",iniciar,false);
+
+</script>
+</head>
+<body>
+Seleccione el libro
+<select id="opcion">
+<option value="">Seleccione una opción</option>
+<option value="1">Eso</option>
+<option value="2">Carrie</option>
+<option value="3">La niebla</option>
+<option value="4">Apocalipsis</option>
+<option value="5">Bajo el domo</option>
+<option value="6">Christine</option>
+</select> 
+<div id="resumen">
+</div>
+</body>
+</html>
