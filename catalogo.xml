@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libros>
+	<libro>
+		<id>1</id>
+		<titulo>Eso</titulo>
+		<editorial>De bolsillo</editorial>
+		<precio>$350.00</precio>
+		<paginas>1000</paginas>
+		<calificacion>5</calificacion>
+		<sinopsis>Cuenta la historia de un grupo de chicos que son aterrorizados por un malvado monstruo -al que llaman -eso-- que es capaz de cambiar de forma, alimentándose del terror que produce en sus víctimas. La historia se presenta desde la perspectiva de cada uno de sus protagonistas, alternada en dos épocas: el pasado (1957-58) y el presente (1984-85). Los hechos acontecen en la comunidad de Derry, en el estado de Maine, Estados Unidos. Bajo la ciudad, a un nivel inconsciente para todos los pobladores, un monstruo despiadado de apetito insaciable atormenta a la comunidad desde tiempos remotos.</sinopsis>
+	</libro>
+	<libro>
+		<id>2</id>
+		<titulo>Carrie</titulo>
+		<editorial>De bolsillo</editorial>
+		<precio>$150.00</precio>
+		<paginas>370</paginas>
+		<calificacion>4</calificacion>
+		<sinopsis>Puede que Carrie White fuera pasada de moda e impopular, pero tenía un don: podía hacer que los objetos se movieran con sólo concentrarse en ellos. Una vela caería. Una puerta se azotaría. Éste era su poder y su pecado. Luego, un acto de bondad, tan espontáneo como los actos de crueldad de todos sus compañeros para con ella, le ofreció a Carrie la posibilidad de convertirse en una niña normal e ir a su baile de graduación. Pero otro acto desalmado y feroz convirtió su don en un arma de horror y destrucción que sus compañeros nunca olvidarían.</sinopsis>
+	</libro>
+	<libro>
+		<id>3</id>
+		<titulo>La niebla</titulo>
+		<editorial>De bolsillo</editorial>
+		<precio>$150.00</precio>
+		<paginas>370</paginas>
+		<calificacion>4</calificacion>
+		<sinopsis>Puede que Carrie White fuera pasada de moda e impopular, pero tenía un don: podía hacer que los objetos se movieran con sólo concentrarse en ellos. Una vela caería. Una puerta se azotaría. Éste era su poder y su pecado. Luego, un acto de bondad, tan espontáneo como los actos de crueldad de todos sus compañeros para con ella, le ofreció a Carrie la posibilidad de convertirse en una niña normal e ir a su baile de graduación. Pero otro acto desalmado y feroz convirtió su don en un arma de horror y destrucción que sus compañeros nunca olvidarían.</sinopsis>
+	</libro>
+</libros>
